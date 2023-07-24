@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABh9NcvZ/sE+ZTVLKPRGRZQAAAAACAAAAAAAQZgAAAAEAACAAAACv4//GpaLdHE5DkAu9Gcj1LT1wSSB3UrnbK8SL8WMsEAAAAAAOgAAAAAIAACAAAACHNaXH/jkqEcfcsFRCMO8URdfN/ymyyMYNr62IzLfjvoAAAADC5cNzSXCO1TneB1/jTXxD4s6tcUyxV+NVpDY6kyV0C4xh0nQyHOSQHyb/c1j/9Y0R7JpjVsO9GKv/OiIFaQ0+ZPkedBAaB6tLMYDacBETKinUJf3lx7A3pUVzhZexiST0T/u/067axsak/SkWFgDNC+D/L6Q0zlWCvF15D4a5HUAAAAAlhkZruSL+ttllNIrnYMccmDrbgKtwuoVoiU8tdkwESOxiJCVSUXFGop/H2hFRaOdlMU9jgoUgvpyi7IrhM/qj</EncryptedPassword>
+    <History>True|2023-07-24T13:52:53.6882100Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Data Source=tcp:tarjetasdbserver.database.windows.net,1433%3bInitial Catalog=tarjetas_dbAZURE%3bUser Id=luchis1720%40tarjetasdbserver%3bPassword=5847qwer%25%28%24/</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="tarjetas.AplicationDbContext">
+      <Value>Data Source=tcp:tarjetasdbserver.database.windows.net,1433%3bInitial Catalog=tarjetas_dbAZURE%3bUser Id=luchis1720%40tarjetasdbserver%3bPassword=5847qwer%25%28%24/</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

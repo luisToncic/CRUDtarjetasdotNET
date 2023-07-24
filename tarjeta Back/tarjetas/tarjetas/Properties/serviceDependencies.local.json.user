@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-07-24T13:46:44.3258094Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-07-24T13:46:05.7962167Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "31d64a75-3133-4546-9815-bfc0f94e102b"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "tarjetas20230724101930ResourceGroup"
+    }
+  }
+}
